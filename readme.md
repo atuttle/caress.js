@@ -8,6 +8,8 @@ What would jQuery Mobile be like if you took out all of the crap-browser support
 
 This is an _extremely stripped-down_ reimplementation of jQuery Mobile. And it's only just getting started, so there's really not much to it yet.
 
+* [DEMO!](http://atuttle.github.com/caress.js/)
+
 ### Patches welcome!
 
 #### MIT Licensed
