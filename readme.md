@@ -10,6 +10,10 @@ This is an _extremely stripped-down_ reimplementation of jQuery Mobile. And it's
 
 * [DEMO!](http://atuttle.github.com/caress.js/)
 
-### Patches welcome!
+Other stuff:
+* Easily themable: Just edit the LESS (broken down into THEME and STRUCTURE) sections, and recompile it.
+* CSS is currently just 3KB minified; 1.1KB gzipped!
+
+## Patches welcome!
 
 #### MIT Licensed
