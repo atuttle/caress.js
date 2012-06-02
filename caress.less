@@ -115,16 +115,32 @@ div[data-role=page] {
 //page header
 div[data-role=header] {
 	display: block;
-	height: 45px;
+	height: 38px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	h1 {
-		margin: 0;
-		padding: 10px 0;
+		margin: 0 auto;
+		padding: 8px 0;
 		font-size: 1.1em;
 		text-align: center;
+		width: 50%;
+	}
+	a.button {
+		display: block;
+		position: absolute;
+		padding: 7px;
+		border: 1px solid;
+		top: 3px;
+		.corner-all(3px);
+
+		&.left {
+			left: 5px;
+		}
+		&.right {
+			right: 5px;
+		}
 	}
 }
 
