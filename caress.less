@@ -37,7 +37,18 @@ div[data-role=header] {
 	h1 {
 		color: white;
 	}
+	a.button {
+		.gradient(#e2e2e2,#fefefe);
+		font-weight: bold;
+		font-size: 0.8em;
+	}
 }
+
+ul:not(.no-magic) a, div[data-role=header] a {
+	text-decoration: none;
+	color: @primary-font-color;
+}
+
 
 ul:not(.no-magic) {
 	li {
@@ -57,10 +68,6 @@ ul:not(.no-magic) {
 		}
 		&:first-child {
 			border-top-width: 1px;
-		}
-		a {
-			text-decoration: none;
-			color: @primary-font-color;
 		}
 		a, span {
 			.pill {
@@ -181,6 +188,18 @@ ul:not(.no-magic) {
 			background: url(arrow-r.png) no-repeat 100% 50%;
 		}
 	}
+}
+
+//icons
+a[data-icon=home] {
+	border-color: @list-item-bg-color-dark !important;
+	background: @list-item-bg-color-light url(home.png) no-repeat 5px 50% !important;
+	padding-left: 25px !important;
+}
+a[data-icon=cog] {
+	border-color: @list-item-bg-color-dark !important;
+	background: @list-item-bg-color-light url(cog.png) no-repeat 5px 50% !important;
+	padding-left: 25px !important;
 }
 
 
