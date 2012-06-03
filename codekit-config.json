@@ -2,62 +2,80 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "6204",
   "files" : {
-    "\/caress.min.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
+    "\/src\/caress.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/caress.min.less",
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/caress.less",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/build\/caress.min.css",
+      "outputAbbreviatedPath" : "\/css\/caress.css",
       "strictImports" : 1,
       "fileType" : 0
     },
-    "\/home.png" : {
+    "\/test\/bootstrap.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/home.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/home.png",
-      "initialSize" : 1049,
-      "fileType" : 10
+      "inputAbbreviatedPath" : "\/test\/bootstrap.html",
+      "outputAbbreviatedPath" : "No Output Path Set",
+      "fileType" : 8
     },
-    "\/arrow-r.png" : {
+    "\/caress\/cog.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/arrow-r.png",
+      "inputAbbreviatedPath" : "\/caress\/cog.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/arrow-r.png",
-      "initialSize" : 1034,
+      "outputAbbreviatedPath" : "\/caress\/cog.png",
+      "initialSize" : 1097,
       "fileType" : 10
     },
-    "\/icon.png" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/icon.png",
-      "initialSize" : 626,
-      "fileType" : 10
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path Set",
+      "fileType" : 8
     },
-    "\/caress.max.less" : {
+    "\/zepto.min.js" : {
       "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/zepto.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/zepto.min.min.js",
+      "fileType" : 5
+    },
+    "\/src\/caress.max.less" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/caress.max.less",
+      "inputAbbreviatedPath" : "\/src\/caress.max.less",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/build\/caress.css",
+      "outputAbbreviatedPath" : "\/caress\/caress.css",
       "strictImports" : 1,
       "fileType" : 0
+    },
+    "\/test\/evidence.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/test\/evidence.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/test\/evidence.min.js",
+      "fileType" : 5
     },
     "\/sprites.png" : {
       "ignoreWasSetByUser" : 0,
@@ -70,48 +88,73 @@
       "initialSize" : 1767,
       "fileType" : 10
     },
-    "\/index.html" : {
+    "\/caress\/home.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path Set",
-      "fileType" : 8
+      "inputAbbreviatedPath" : "\/caress\/home.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/caress\/home.png",
+      "initialSize" : 1049,
+      "fileType" : 10
     },
-    "\/caress.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/caress\/arrow-r.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/caress\/arrow-r.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/caress\/arrow-r.png",
+      "initialSize" : 1033,
+      "fileType" : 10
+    },
+    "\/src\/caress.min.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/caress.less",
+      "inputAbbreviatedPath" : "\/src\/caress.min.less",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/caress.css",
+      "outputAbbreviatedPath" : "\/caress\/caress.min.css",
       "strictImports" : 1,
       "fileType" : 0
     },
-    "\/zepto.min.js" : {
+    "\/test\/runner.coffee" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/test\/runner.coffee",
+      "checkOutputStyle" : 1,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/test\/runner.js",
+      "outputStyle" : 1,
+      "fileType" : 4
+    },
+    "\/caress\/icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/zepto.min.js",
+      "inputAbbreviatedPath" : "\/caress\/icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/caress\/icon.png",
+      "initialSize" : 626,
+      "fileType" : 10
+    },
+    "\/test\/evidence_runner.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/test\/evidence_runner.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/zepto.min.min.js",
+      "outputAbbreviatedPath" : "\/test\/evidence_runner.min.js",
       "fileType" : 5
-    },
-    "\/cog.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/cog.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/cog.png",
-      "initialSize" : 1097,
-      "fileType" : 10
     }
   },
   "manualImportLinks" : [
