@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Just to see if I've got CI setup correctly...</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" href="test.css">
+		<script src="evidence.js"></script>
+		<script src="evidence_runner.js"></script>
+	</head>
+	<body>
+		<h1>Caress testing bootstrap</h1>
+		<p id="results">
+			Running... see browser console for results.
+		</p>
+
+		<script>
+			Evidence('TestingWorks', {
+				testAssertionsRunning: function(t){
+					t.assertTrue(true);
+					t.assertFalse(false);
+				}
+			});
+		</script>
+	</body>
+</html>
