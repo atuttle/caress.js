@@ -122,9 +122,9 @@ div[data-role=page] {
 //page header
 div[data-role=header] {
 	display: block;
-	height: 38px;
+	height: 39px;
 	position: fixed;
-	top: 0;
+	top: -1px; //fix for: android browser seems to show 1px transparency above header
 	left: 0;
 	width: 100%;
 	h1 {
